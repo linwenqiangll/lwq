@@ -1,0 +1,248 @@
+/*重置样式*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, input,fieldset, legend, img, div, section, figure,header,nav,main,footer { 
+	margin:0; 
+	padding:0; 
+	box-sizing: border-box;
+}
+body{font-size:12px;}
+
+fieldset, img{ border:none; }
+
+em, i, b, strong,h1, h2, h3, h4, h5, h6{ 
+	font-style:normal; 
+	font-weight:normal; 
+}
+
+ul, ol { list-style:none; } 
+
+a {text-decoration:none; }
+/*头*/
+header{
+	width:100%;
+	height:30px;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #dddddd;
+	.head{
+		height: 29px;
+		width: 1210px;
+		margin:0 auto;
+		font-size: 14px;
+		line-height: 29px;
+		span{
+			color: #7c667c;
+			float: left;
+			a{
+				color: #7c667c;
+				padding-left:1px;
+			}
+		}
+		.yonghu a{
+			float:right;
+			color: #7c667c;
+			padding:0 6px;
+		}
+	}	
+}
+/*搜索栏*/
+.search{
+	.s_box{
+		width: 1210px;
+		height: 99px;
+		margin: 0 auto;
+		.s_l_logo{
+			float: left;
+			a{
+				width: 441px;
+				height: 99px;
+				display: block;
+				span{
+					display: none;
+				}
+			}
+			
+		}
+		.s_mid{
+			height: 99px;
+			float: left;
+			margin-left: 40px;
+			padding-top: 20px;
+			position: relative;
+			form{
+				height: 38px;
+				.txt{
+					width: 423px;
+					height: 32px;
+					border:none;
+					outline: none;
+					border:3px solid #2e488c;
+					float: left;
+					padding-left: 10px;
+				}
+				.btn{
+					float: left;
+					height: 32px;
+					width: 71px;
+					border:none;
+					background-color: #2e488c;
+					border-top-right-radius: 6px;
+					border-bottom-right-radius: 6px;
+					cursor: pointer;
+					font-size: 15px;
+					color:white;
+					outline: none;
+				}
+			}
+			p{
+				margin-top: 12px;
+				span{
+					color: #666666;
+				}
+				a{
+					padding-left: 7px;
+					color:#666666;
+					font-size: 14px;
+				}
+			}
+			.suggest{
+				width: 432px;
+				position: absolute;
+				background-color: white;
+				top: 52px;
+			}
+		}
+		.s_right{
+			float: right;
+			font-size: 0;
+		}
+	}
+}
+/*导航*/
+nav{
+	height: 42px;
+	width: 100%;
+	background-color: #1d5bb0;
+	.nav_1{
+		margin: 0 auto;
+		height: 42px;
+		width: 1210px;
+		.n_l{
+			width: 571px;
+			height: 42px;
+			font-size: 17px;
+			float: left;
+			p{
+				float: left;
+				width: 205px;
+				line-height: 42px;
+				text-align: center;
+				color: white;
+				position: relative;
+				 background-color: #007b84;
+			}
+			ul>li{
+				float:  left;
+				padding: 0 20px;
+				line-height: 42px;
+				a{
+					color: white;
+				}
+				&:nth-child(2){
+					&:hover{
+						background:#22b0ba;
+					}
+					ul{
+						position: absolute;
+						top: 171px;
+						left: 314px;
+						li{
+							background-color: #11a0ba;
+							float: left;
+							display: none;
+							}
+						}
+				}
+		}
+	}
+		.carts{ 
+			width: 256px;
+			height: 42px;
+			float: right; 
+			background-color: #213468;
+			span{
+				color: white;
+				display: inline-block;
+				width: 187px;
+				line-height: 42px;
+				text-align: center;
+				position: relative;
+				img{
+					position: absolute;
+					top:10px;
+					left:10px;
+				}
+				b{color:yellow;}
+
+			}
+			a{
+				color: white;
+				background-color: #4062a7;
+				float: right;
+				width: 59px;
+				height: 27px;
+				border-radius: 10px;
+				text-align: center;
+				line-height: 27px;
+				margin-right:10px;
+				margin-top:7px;
+			}
+		}
+	}
+}
+
+/*末端*/
+.stern{
+	width:100%;
+	height: 201px;
+	background-color: #f4f4f4;
+	clear: both;
+	padding-top: 30px;
+	border-top: 20px solid white;
+	.stern_in{
+		width: 1210px;
+		height: 111px;
+		margin:0 auto;
+		ul{
+		float: left;
+		width: 242px;
+			.e_1{
+				color: #525668;
+				font-size: 20px;
+				line-height: 30px;
+				img{
+					margin-right: 8px;
+					width: 30px;
+					height: 30px;
+					float: left;
+				}
+			}
+			.e_2{
+				margin-top: 8px;
+				margin-left: 38px;
+				padding-left: 8px;
+				font-size: 14px;
+				&:hover a{color:blue;text-decoration: underline;}
+				a{color: #777a81;}
+			}
+		}
+	}
+}
+
+
+.bottom{
+	
+	background-color: #666666;
+	/*line-height: 38px;*/
+	padding: 12px 0;
+	text-align: center;
+	color: #f9f9f9;
+}
