@@ -27,17 +27,19 @@
 				float: left;
 			}
 			.m{
-				width: 350px;
+				width: 393px;
 				height: 183px;
 				float: left;
 				margin-left: 5px;
+				padding-top: 30px;
+				position: relative;
 				p{
 					margin-bottom: 24px;
 					margin-right: 5px;
 					position: relative;
 					span{
 						display: inline-block;
-						width: 100px;
+						width: 55px;
 						height: 26px;
 						text-align: right;
 					}
@@ -50,24 +52,25 @@
 					}
 					i{
 						position: absolute;
-						left: 104px;
+						left: 56px;
 						color: red;
 						display:block;
 						font-style:normal;
 					}
 					strong{
 						position: absolute;
-						left: 104px;
+						left: 56px;
 						color: red;
 						display:block;
 						font-style:normal;
 					}
 				}
-				.reg_b{
-					 text-align: right;
-					.reg_btn{
-							width: 75px;
-							height: 22px;
+				.log_b{
+					 position: absolute;
+					 right: 15px;top:32px; 
+					.log_btn{
+							width: 79px;
+							height: 72px;
 							background-color: #ff7d34;
 							border: none;
 							color: white;

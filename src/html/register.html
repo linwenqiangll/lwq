@@ -16,22 +16,22 @@
 					<img src="../images/zc_07.gif" alt="">
 				</div>	
 				<div class="m">
-					<form action="">
+					<form action="#" method="get" class="res_form" onsubmit="return false">
 						<p>
 							<span>用户名：</span>
 							<input type="text" name="username" placeholder="请输入用户名" id="txt"><br>
+							<strong></strong>
 						</p>
-						<i></i>
 						<p>
-						<p>
-							<span>密 码：</span><input type="password" name="password" id="p1"><br>
+							<span>密 码：</span><input type="password" name="password" id="pas"><br>
+							<i></i>
 						</p>
-						<i></i>
+						
 						<p>
-							<span>确认密码：</span><input type="password" name="password" id="p2"><br>
+							<span>确认密码：</span><input type="password" name="password" id="paw"><br>
 						</p>
 						<div class="reg_b">
-							<input type="submit" value="注册" class="reg_btn" onclick="return false">
+							<input type="submit" value="注册" class="reg_btn">
 						</div>
 					</form>
 				</div>
@@ -50,6 +50,7 @@
 	</div>
 	<!-- 末端 -->
 	<div class="footer"></div>
+
 	<script src="/lib/requeryjs/require.js" data-main="/js/register"></script>
 </body>
 </html>
