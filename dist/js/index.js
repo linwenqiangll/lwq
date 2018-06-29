@@ -1,8 +1,8 @@
 require(["config"],function () {
-	require(["load"],function () {
-		
+	require(["load","artTemplate","jquery","list"],function(){
+
 		
 	
-})
+});
 	// body...
-})
+});

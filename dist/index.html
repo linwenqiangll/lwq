@@ -64,36 +64,36 @@
 			<div class="unslider">
 				<ul>
 					<li>
-							<!-- <img src="images/20180228jwoduf.jpg"> -->
+							<img src="images/20180228jwoduf.jpg">
 					</li>
 					<li>
-							<!-- <img src="images/20180512gjhvbu.jpg"> -->
+							<img src="images/20180512gjhvbu.jpg">
 					</li>
 					<li>
-						<!-- <img src="images/20180512gjhvbu.jpg"> -->
+						<img src="images/20180512gjhvbu.jpg">
 					</li>
 					<li>
-						<!-- <img src="images/20180501kclaml.jpg"> -->
+						<img src="images/20180501kclaml.jpg">
 					</li>
 					<li>
-						<!-- <img src="images/20180428vklcii.jpg"> -->
+						<img src="images/20180428vklcii.jpg">
 					</li>
 					<li>
-						<!-- <img src="images/20180622oenhri.jpg"> -->
+						<img src="images/20180622oenhri.jpg">
 					</li>
 				</ul>
-				
-					<i style="background:#ff5317;">1</i>
+				<div class="i">
+					<i>1</i>
 					<i>2</i>
 					<i>3</i>
 					<i>4</i>
 					<i>5</i>
 					<i>6</i>
-				
+				</div>
 			</div>
 		</div>
 	</div>
-	<script>
+	<!-- <script>
 		$("li").first().carousel({
 			duration:1000,
 			imgs:[
@@ -107,7 +107,7 @@
 			
 
 		});
-	</script>
+	</script> -->
 	<div class="cx">
 		<img src="images/cx.png" alt="">
 	</div>
@@ -174,7 +174,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="storey_box">
+	<!-- <div class="storey_box">
 		<div class="st_title">
 			<span>1F</span>健康食品
 		</div>
@@ -525,8 +525,70 @@
 					</ul></div>
 			</div>		
 		</div>
-	</div>
+	</div> -->
 	
+	<script id="storey_box" type="text/html">
+		<div class="storey_box">
+		<div class="st_title">
+			<span>1F</span>健康食品
+		</div>
+		<div class="more">
+			<a href="#">女性保健</a>
+			|
+			<a href="#">抗癌产品</a>
+			|
+			<a href="#">老年保健</a>
+			|
+			<a href="#">家庭保健</a>
+			|
+			<a href="#">男性保健</a>
+			|
+			<span>
+				<a href="#">更多 》</a>
+			</span>
+		</div>
+		<div class="storey">
+			<div class="unslider-fade">
+				<ul>
+					<li style="display: block;"><a href="javascript:;"><img src="images/20161013mlblvq.jpg" alt=""></a></li>
+					<li><a href="javascript:;"><img src="images/20161013nrkzws.jpg" alt=""></a></li>
+					<li><a href="javascript:;"><img src="images/20161013pnuatd.jpg" alt=""></a></li>
+					<li><a href="javascript:;"><img src="images/20161013ugtglk.jpg" alt=""></a></li>
+				</ul>
+			</div>
+			<div class="cp">
+				<ul>
+					<li class="cp_1"><a href="javascript:;"><img src="images/1482941252439414082.jpg" alt=""></a></li>
+					<li class="cp_2"><a href="javascript:;">加拿大海参一桶/500g</a></li>
+					<li class="cp_3"><a href="javascript:;">
+						$999
+						<span>$1028</span>
+					</a></li>
+				</ul>
+			</div>
+			<div class="sp">
+				{{each products prod index}}
+				<div class="sp_1">
+					<ul>
+						<li class="sp_1_1"><a href="javascript:;">
+							{{prod.img}}
+						</a></li>
+						<li class="sp_1_2"><a href="javascript:;">
+							{{prod.desc}}
+						</a></li>
+						<li class="sp_1_3"><a href="javascript:;">
+							{{prod.price}} 	<span>{{prod.h_price}}</span>
+						</a></li>
+					</ul>
+				</div>
+				{{/each}}
+				
+			</div>		
+		</div>
+	</div>
+	</script>
+
+
 	<div class="consulting">
 		<div class="c_left">
 			<img src="images/fxb.jpg" alt="">
