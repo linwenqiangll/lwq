@@ -7,7 +7,7 @@ module.exports = {
     // 键必须以斜线开始和结束
     "/@/": path.resolve(__dirname, "./src"),
   },
-  hostname: "127.0.0.1",
+  hostname: "0.0.0.0",
   port: 3000,
   // 是否自动在浏览器打开
   open: true,
@@ -19,12 +19,11 @@ module.exports = {
    * 在生产中服务时的基本公共路径。
    * @default '/'
    */
-  base: "/lwq/",
+  base: "lwq",
   /**
    * 与“根”相关的目录，构建输出将放在其中。如果目录存在，它将在构建之前被删除。
    * @default 'dist'
    */
-  publicDir: "./lwq/",
   outDir: "dist",
   // 反向代理，此处应该特别注意，网上很多教程是直接设置proxy，并没有向官网那样添加 server，可能会导致失败，vite官网：https://vitejs.dev/guide/features.html#async-chunk-loading-optimization
   server: {
