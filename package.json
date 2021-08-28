@@ -1,7 +1,7 @@
 {
   "name": "second-vue3",
   "version": "0.0.0",
-  "homepage": "https://linwenqiangll.github.io/lwq/",
+  "homepage": "https://linwenqiangll.github.io/lwq",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
