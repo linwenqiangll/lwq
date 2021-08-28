@@ -1,8 +1,8 @@
-import { createRouter, createWebHistory } from 'vue-router';
-import TODO from '../views/todo.vue';
+import { createRouter, createWebHashHistory } from "vue-router";
+import TODO from "../views/todo.vue";
 
 const router = createRouter({
-  routes: [{ path: '/todo', component: TODO }],
-  history: createWebHistory('/hhhh'),
+  routes: [{ path: "/todo", component: TODO }],
+  history: createWebHashHistory("/hhhh"),
 });
 export default router;
