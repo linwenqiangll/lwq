@@ -3,6 +3,6 @@ import TODO from "../views/todo.vue";
 
 const router = createRouter({
   routes: [{ path: "/todo", component: TODO }],
-  history: createWebHashHistory("/hhhh"),
+  history: createWebHashHistory(),
 });
 export default router;
