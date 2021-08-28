@@ -1,7 +1,6 @@
 import vue from '@vitejs/plugin-vue';
 const path = require('path');
 // vite.config.js # or vite.config.ts
-console.log(path.resolve(__dirname, './src'));
 module.exports = {
   plugins: [vue()],
   'resolve.alias': {
@@ -25,6 +24,7 @@ module.exports = {
    * 与“根”相关的目录，构建输出将放在其中。如果目录存在，它将在构建之前被删除。
    * @default 'dist'
    */
+  publicDir: '/lwq/',
   outDir: 'dist',
   // 反向代理，此处应该特别注意，网上很多教程是直接设置proxy，并没有向官网那样添加 server，可能会导致失败，vite官网：https://vitejs.dev/guide/features.html#async-chunk-loading-optimization
   server: {
